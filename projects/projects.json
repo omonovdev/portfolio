@@ -8,8 +8,6 @@
       "view": "https://findedu-client.netlify.app/"
     }
   },
-
-
   {
     "name": "Nasiya.Uz Website",
     "desc": " I developed the backend of this project using NestJS, Prisma, and PostgreSQL. Nasiya.uz is a powerful web application designed for large companies, supermarkets, and similar businesses to efficiently manage and track debts and financial flows. One of its key features is the ability to record and monitor who owes whom — whether it's clients, partners, or suppliers. The system clearly displays payables and receivables in real time.",
@@ -19,5 +17,4 @@
       "view": "https://count-up-delta.vercel.app//"
     }
   }
-  
 ]
