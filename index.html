@@ -248,49 +248,6 @@
 </section>
 <!-- experience section ends -->
 
-<!-- contact section starts -->
-<section class="contact" id="contact">
-  <div class="contact-stars-bg">
-    <svg viewBox="0 0 1440 120"><circle cx="120" cy="60" r="2.5" fill="#ffd700"/><circle cx="340" cy="80" r="1.5" fill="#ffd700"/><circle cx="600" cy="40" r="2" fill="#ffd700"/><circle cx="900" cy="100" r="2.5" fill="#ffd700"/><circle cx="1200" cy="70" r="1.8" fill="#ffd700"/><circle cx="1350" cy="30" r="2.2" fill="#ffd700"/><circle cx="200" cy="100" r="1.2" fill="#ffd700"/><circle cx="800" cy="60" r="2.1" fill="#ffd700"/></svg>
-  </div>
-  <h2 class="heading" style="font-size:1.25rem;text-align:center;color:#ffd700;margin-bottom:18px;letter-spacing:0.5px;background:none;border-radius:0;">
-    <i class="fas fa-headset"></i> Get in <span style="color:#fff;">Touch</span>
-  </h2>
-  <div class="container" style="padding:0 8px;background:none;box-shadow:none;border-radius:0;">
-    <div class="content" style="display:flex;flex-direction:column;align-items:center;background:none;box-shadow:none;border-radius:0;">
-      <div class="image-box" style="max-width:80px;margin-bottom:12px;background:none;box-shadow:none;border-radius:0;">
-        <img draggable="false" src="./assets/images/contact1.png" alt="" style="width:100%;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
-      </div>
-      <form id="contact-form" style="width:100%;max-width:220px;background:none;box-shadow:none;border-radius:0;">
-        <div class="form-group" style="background:none;box-shadow:none;border-radius:0;">
-          <div class="field" style="background:none;box-shadow:none;border-radius:0;display:flex;align-items:center;gap:8px;margin-bottom:8px;">
-            <i class='fas fa-user' style="color:#ffd700;"></i>
-            <input type="text" name="name" placeholder="Name" required style="font-size:0.95rem;padding:6px 8px;border-radius:6px;border:1px solid #ffd700;background:#181028;color:#fff;flex:1;">
-          </div>
-          <div class="field" style="background:none;box-shadow:none;border-radius:0;display:flex;align-items:center;gap:8px;margin-bottom:8px;">
-            <i class='fas fa-envelope' style="color:#ffd700;"></i>
-            <input type="text" name="email" placeholder="Email" required style="font-size:0.95rem;padding:6px 8px;border-radius:6px;border:1px solid #ffd700;background:#181028;color:#fff;flex:1;">
-          </div>
-          <div class="field" style="background:none;box-shadow:none;border-radius:0;display:flex;align-items:center;gap:8px;margin-bottom:8px;">
-            <i class='fas fa-phone-alt' style="color:#ffd700;"></i>
-            <input type="text" name="phone" placeholder="Phone" style="font-size:0.95rem;padding:6px 8px;border-radius:6px;border:1px solid #ffd700;background:#181028;color:#fff;flex:1;">
-          </div>
-          <div class="message" style="background:none;box-shadow:none;border-radius:0;display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;">
-            <i class="fas fa-comment-dots" style="color:#ffd700;margin-top:4px;"></i>
-            <textarea placeholder="Message" name="message" required style="font-size:0.95rem;padding:6px 8px;border-radius:6px;border:1px solid #ffd700;background:#181028;color:#fff;flex:1;"></textarea>
-          </div>
-        </div>
-        <div class="button-area" style="text-align:center;margin-top:8px;background:none;box-shadow:none;border-radius:0;">
-          <button type="submit" style="font-size:0.95rem;padding:6px 14px;border-radius:7px;background:#ffd700;color:#181028;font-weight:600;border:none;">
-            Submit <i class="fa fa-paper-plane"></i></button>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
-<!-- contact section ends -->
-
-
 <!-- footer section starts -->
 <section class="footer" style="background:linear-gradient(90deg,#181028 60%,#232a3d 100%);color:#fff;padding:48px 0 24px 0;">
   <div class="box-container" style="display:flex;flex-wrap:wrap;justify-content:center;gap:48px;max-width:1200px;margin:auto;">
@@ -412,12 +369,9 @@
 .contact-stars-bg svg {
   width: 100%; height: 100%; display: block;
 }
-.skills {
-  position: relative;
-  background: #181028 !important;
-  overflow: hidden;
-  border-radius: 18px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+.skills, .skills-cosmic-bg {
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
 .skills-cosmic-bg {
   position: absolute;
