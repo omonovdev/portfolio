@@ -20,7 +20,7 @@ jobs:
       # Qadamga nom berish
       - name: Deploy using SSH
         # appleboy/ssh-action@master nomli GitHub Action'dan foydalanish
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v0.1.8
         with:
           # Server IP manzili, GitHub Secrets'dan olinadi
           host: ${{ secrets.HOST }}
